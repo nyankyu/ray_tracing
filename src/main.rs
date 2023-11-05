@@ -1,4 +1,4 @@
-use image::{ImageBuffer, Rgb, ImageError};
+use image::{ImageBuffer, ImageError, Rgb};
 use std::{fs::create_dir_all, path::Path};
 
 const SAVE_DIR: &str = "images";
